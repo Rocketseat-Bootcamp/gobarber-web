@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "babel-plugin-root-import": "^6.4.1",
     "history": "^4.10.1",
+    "polished": "^3.4.2",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",

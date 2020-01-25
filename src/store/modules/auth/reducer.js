@@ -19,6 +19,10 @@ export default function auth(state = INITIAL_STATE, action) {
     '@auth/SIGN_FAILURE': draft => {
       draft.loading = false;
     },
+    '@auth/SIGN_OUT': draft => {
+      draft.token = null;
+      draft.signed = false;
+    },
   };
 
   return producer(state, draft => {

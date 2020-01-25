@@ -45,6 +45,7 @@ export const Profile = styled.div`
   div {
     text-align: right;
     margin-right: 10px;
+    align-items: center;
 
     strong {
       display: block;

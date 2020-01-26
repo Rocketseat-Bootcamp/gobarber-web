@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import PerfectScrollBar from 'react-perfect-scrollbar';
 
 export const Container = styled.div`
   max-width: 600px;
@@ -30,6 +31,11 @@ export const Container = styled.div`
     grid-gap: 15px;
     margin-top: 30px;
   }
+`;
+
+export const Scroll = styled(PerfectScrollBar)`
+  max-height: 580px;
+  padding: 5px 15px;
 `;
 
 export const Time = styled.div`
